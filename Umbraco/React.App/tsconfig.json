@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es2015" 
+    ],
+    "outDir": "../React.Web/Scripts/Build/",
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": false,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "alwaysStrict": true,
+    "jsx": "react"
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "Content"
+  ]
+}
+
