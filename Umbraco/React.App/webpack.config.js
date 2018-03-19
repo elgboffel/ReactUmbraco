@@ -5,7 +5,7 @@ module.exports = {
     entry: "./App/app.tsx",
     output: {
         filename: "bundle.js",
-        path: path.resolve("../React.Web/Build/Bundles")
+        path: path.resolve("../React.Web/Scripts/Build/Bundles")
     },
 
     // Enable sourcemaps for debugging webpack's output.
@@ -36,6 +36,7 @@ module.exports = {
     // dependencies, which allows browsers to cache those libraries between builds.
     externals: {
         "react": "React",
-        "react-dom": "ReactDOM"
+        "react-dom": "ReactDOM",
+        "remarkable": "Remarkable"
     }
 };
